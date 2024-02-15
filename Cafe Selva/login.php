@@ -6,7 +6,7 @@ $contrasena = $_POST['contrasena'];
 // Verificar las credenciales
 if ($usuario == 'administrador' && $contrasena == 'asd') {
     // Redirigir al usuario administrador
-    header('Location: admi.html');
+    header('Location: admi.php');
     exit;
 } elseif ($usuario == 'cliente' && $contrasena == '123') {
     // Redirigir al usuario normal
