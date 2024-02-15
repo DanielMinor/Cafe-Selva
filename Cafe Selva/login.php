@@ -10,7 +10,7 @@ if ($usuario == 'administrador' && $contrasena == 'asd') {
     exit;
 } elseif ($usuario == 'cliente' && $contrasena == '123') {
     // Redirigir al usuario normal
-    header('Location: cliente2.php');
+    header('Location: cliente.php');
     exit;
 } else {
     // Credenciales incorrectas, redirigir de vuelta al formulario de inicio de sesión
