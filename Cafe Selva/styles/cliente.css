@@ -178,10 +178,47 @@ body {
 }
 
 .miCarrito {
-    background-color: aqua;
     width: 440px;
     height: 100%;
     border-radius: 10px;
+}
+
+.miCarrito h2 {
+    font-family: Montserrat;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 28px;
+    color: #006542;
+    margin-bottom: 24px;
+}
+
+.miCarrito ul {
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: 600;
+    font-style: normal;
+    color: #006542;
+    margin-bottom: 16px;
+    flex-direction: column;
+}
+
+#inputSubmitCarrito {
+    background-color: #006542;
+    border: none;
+    width: auto;
+    height: 32px;
+    border-radius: 10px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-size: 16px;
+    font-weight: 600;
+    padding: 0 8px;
+    color: #FFF;
+    cursor: pointer;
 }
 
 .checkOut {
