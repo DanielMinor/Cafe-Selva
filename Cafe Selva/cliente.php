@@ -221,7 +221,11 @@ if(isset($_POST['vaciar'])) {
         ?>
     </ul>
     <form method="post" action="">
+<<<<<<< HEAD
         <input id="inputSubmitCarrito" type="submit" name="vaciar" value="Vaciar carrito">
+=======
+        <input type="submit" name="vaciar" value="Vaciar carrito">
+>>>>>>> 1e9cb6163b35d1c16993b89d6df441dc97cf2fe3
     </form>
 </div>
 <div class="checkOut">
