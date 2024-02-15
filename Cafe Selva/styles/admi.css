@@ -1,0 +1,215 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    height: 100dvh;
+}
+
+.header {
+    background-color: #006542;
+    width: 100%;
+    height: 72px;
+    display: flex;
+    justify-content: flex-start;
+    padding: 0px 30px;
+}
+
+.containerMaya {
+    width: auto;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#imgMaya {
+    width: auto;
+    height: 52px;
+}
+
+.bodyPage {
+    width: 100%;
+    height: calc(100dvh - 72px);
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+}
+
+.menuAdmi {
+    width: 200px;
+    height: 100%;
+    background-color: #006542;
+}
+
+.menuAdmi a {
+    text-decoration: none;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    color: #FFF;
+}
+
+.btnsMenu {
+    width: 100%;
+    height: 48px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 0 30px;
+    margin-top: 20px;
+}
+
+#btnPrimary {
+    margin-top: 94px;
+}
+
+.btnsMenu img {
+    width: 24px;
+    height: 24px;
+    margin-right: 32px;
+}
+
+.bodySpaceWork {
+    width: calc(100vw - 200px);
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 0 16px;
+}
+
+.bodySpaceWork h1 {
+    width: 100%;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    color: #006542;
+}
+
+.containerFlashReports {
+    width: 100%;
+    height: 180px;
+    margin-top: 28px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.cardsFlashNews {
+    width: 32%;
+    height: 100%;
+    background-color: #006542;
+    border-radius: 10px;
+    padding: 0 25px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.partsCards {
+    width: 42%;
+    height: 75%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+
+#iconCredit {
+    height: 16px;
+    margin-bottom: 16px;
+}
+
+.pText {
+    font-size: 10px;
+    margin-bottom: 0;
+}
+
+.pNumeros {
+    font-size: 40px;
+    margin-bottom: 8px;
+}
+
+.partsCards p {
+    width: 100%;
+    height: auto;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    color: #FFF;
+}
+
+.newPorcent {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 24px;
+    border-radius: 4px;
+    background-color: #E7BC86;
+}
+
+.newPorcent img {
+    width: auto;
+    height: 60%;
+    margin-right: 4px;
+}
+
+.newPorcent p{
+    color: #000;
+    font-size: 12px;
+    width: 70%;
+}
+
+#iconGrapics {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#iconGrapics img {
+    height: 64px;
+    width: auto;
+}
+
+.containerGrapics {
+    width: 100%;
+    height: 200px;
+    margin-top: 16px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.grafica {
+    background-color: #EEE;
+    border-radius: 10px;
+    height: 100%;
+}
+
+#grafica1 {
+    width: 58%;
+}
+
+#grafica2 {
+    width: 40%;
+}
